@@ -1,29 +1,36 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Fondo claro para la página */
-    color: #333; /* Color del texto */
+    color: #fff;
+    background-color: #000;
+    background-image: url('fondo.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #007bff; /* Color de fondo del encabezado */
-    color: #fff; /* Color del texto en el encabezado */
+    background: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    color: #fff;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
 }
 
 main {
     padding: 2rem;
     max-width: 900px;
     margin: auto;
-    background-color: #fff; /* Fondo blanco para el contenido principal */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro y translúcido */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
 }
 
-section {
-    margin-bottom: 2rem;
+h1, h2 {
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
 }
 
 label {
@@ -36,19 +43,30 @@ textarea, select, button {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
-}
-
-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 1rem;
     border: none;
-    cursor: pointer;
+    padding: 0.75rem;
     border-radius: 5px;
 }
 
+textarea {
+    background-color: #333;
+    color: #fff;
+}
+
+select {
+    background-color: #444;
+    color: #fff;
+}
+
+button {
+    background-color: #00bfff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 button:hover {
-    background-color: #0056b3;
+    background-color: #1e90ff;
 }
 
 video {
@@ -59,7 +77,9 @@ video {
 
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background-color: #007bff;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
+    position: relative;
+    z-index: 1;
 }
