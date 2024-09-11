@@ -2,50 +2,64 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9; /* Fondo claro para la página */
+    color: #333; /* Color del texto */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
     text-align: center;
     padding: 1rem 0;
 }
 
 main {
     padding: 2rem;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
+    background-color: #fff; /* Fondo blanco para el contenido principal */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 section {
     margin-bottom: 2rem;
 }
 
-label, textarea, button {
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+textarea, select, button {
     display: block;
     width: 100%;
     margin-bottom: 1rem;
 }
 
 button {
-    background-color: #333;
+    background-color: #007bff;
     color: #fff;
     padding: 1rem;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #555;
-}
-
-#video-output {
-    display: none; /* Oculta la sección hasta que se genere un video */
+    background-color: #0056b3;
 }
 
 video {
     width: 100%;
     max-height: 400px;
     margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #007bff;
+    color: #fff;
 }
