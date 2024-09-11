@@ -12,7 +12,7 @@ document.getElementById('generate-button').addEventListener('click', async () =>
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer TU_API_KEY_AQUI'
+                'Authorization': 'Bearer bWFudWVsOThmbEBnbWFpbC5jb20:VxxFSiMlsTBIqThqrXOG8'
             },
             body: JSON.stringify({
                 script: textInput
