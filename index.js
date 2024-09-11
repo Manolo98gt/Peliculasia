@@ -35,3 +35,4 @@ document.getElementById('generate-button').addEventListener('click', async () =>
         alert('Hubo un problema al generar el video. Inténtalo de nuevo.');
     }
 });
+
